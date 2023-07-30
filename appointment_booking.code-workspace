@@ -1,0 +1,15 @@
+{
+	"settings": {
+		"editor.acceptSuggestionOnEnter": "on"
+	},
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [],
+		"compounds": []
+	}
+}
