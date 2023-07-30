@@ -4,7 +4,10 @@
 	},
 	"folders": [
 		{
-			"path": "."
+			"path": "./backend"
+		},
+		{
+			"path": "./frontend"
 		}
 	],
 	"launch": {
