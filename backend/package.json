@@ -1,0 +1,19 @@
+{
+	"name": "appointment_booking_backend",
+	"version": "1.0.0",
+	"description": "Backend application for appointment booking",
+	"main": "server.js",
+	"scripts": {
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "."
+	},
+	"keywords": [
+		"Appointment",
+		"Booking"
+	],
+	"author": "MD ASIF JAWED",
+	"license": "ISC"
+}
