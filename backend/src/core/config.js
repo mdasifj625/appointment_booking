@@ -8,6 +8,8 @@ const Config = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   },
+  SALT_ROUNDS: 10,
+  JWT_SECRET: process.env.JWT_SECRET,
 }
 
 export { Config }

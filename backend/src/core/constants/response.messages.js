@@ -13,4 +13,10 @@ export const Messages = {
       Deleted: 'Appointment deleted successfully',
     },
   },
+  User: {
+    Success: {
+      Created: 'User created successfully',
+      Login: 'Login success',
+    },
+  },
 }

@@ -1,6 +1,7 @@
 import { Router } from 'express'
 import RateLimit from 'express-rate-limit'
 import { appointmentRouter } from './modules/appointment/routers/index.js'
+import { authRouter } from './modules/auth/routers/index.js'
 
 const rateLimiter = RateLimit({
   windowMs: 60 * 1000 * 1, // Time window of 1 minute
@@ -18,5 +19,6 @@ router.post('/', (req, res) => {
 })
 
 router.use('/appointments', appointmentRouter)
+router.use('/auth', authRouter)
 
 export { router as AppRoutes }
