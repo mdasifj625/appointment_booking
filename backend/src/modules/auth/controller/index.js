@@ -1,5 +1,5 @@
-import _Register from './Register.js'
-import _Login from './Login.js'
+import _Register from './register.js'
+import _Login from './login.js'
 
 export class AuthController {
   Register = _Register
